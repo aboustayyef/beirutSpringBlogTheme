@@ -9,13 +9,13 @@ $max_header_width: 1180px;
 $max_page_width: 1080px;
 $border: 1px solid silver;
 $small-text: 0.8em;
-$red_colour: #b12530;
+$green_color: #669900;
 $grey_colour: #ddd;
 $font_standard_size: 1.0em;
 $font_reduced_size: 0.9em;
 $font_small_size: 0.8em;
-$font_body: "Open Sans", sans-serif;
-$font_header: "Source Sans Pro", sans-serif;
+$font_body: "Georgia", serif;
+$font_header: "Arvo", Georgia, serif;
 
 @mixin rounded_corners($radius: 6px) {
 	border-radius: $radius;
@@ -26,8 +26,7 @@ $font_header: "Source Sans Pro", sans-serif;
 
 /* =Fonts
 -------------------------------------------------------------- */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:600);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
 
 /* =Reset
 -------------------------------------------------------------- */
@@ -66,7 +65,7 @@ address {
 -------------------------------------------------------------- */
 a {
 	text-decoration: none;
-	color: $red_colour;
+	color: $green_color;
 }
 a:hover {
 	text-decoration: underline;
@@ -107,7 +106,7 @@ a:hover {
 			}
 	
 			span {
-				color: $red_colour;
+				color: $green_color;
 			}
 	
 			small {
@@ -120,11 +119,11 @@ a:hover {
 
 	h2 {
 		font-family: $font_body;
-		font-size: $font_standard_size;
+		font-size: $font_reduced_size;
 		line-height: 1.2em;
 		float: left;
 		font-weight: normal;
-		margin: 1.5em 2% 0 3%;
+		margin: 2.5em 2% 0 3%;
 		opacity: 0.8;
 	}
 
@@ -497,7 +496,7 @@ td {
 	
 	li.active a,
 	li a:hover {
-		background: $red_colour;
+		background: $green_color;
 		text-decoration: none;
 		color: #fff;
 	}
@@ -579,7 +578,7 @@ ol.commentlist {
 	}
 
 	.comment-reply-link:hover {
-		background: $red_colour;
+		background: $green_color;
 		color: #fff;
 		text-decoration: none;
 	}
@@ -696,7 +695,7 @@ ol.commentlist {
 .gform_wrapper input[type=submit]:hover,
 .contact-form input[type=submit]:hover,
 #respond input[type=submit]:hover {
-	background: $red_colour;
+	background: $green_color;
 	color: #fff;
 	cursor: pointer;
 }

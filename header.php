@@ -15,7 +15,7 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<link rel="shortcut icon" href="http://mustapha.me/favicon.ico?v=001" />
+<link rel="shortcut icon" href="http://beirutspring.com/favicon.ico?v=001" />
 
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
@@ -28,7 +28,7 @@
 	<div class="hgroup">
 		<h1>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				<img src ="http://mustapha.me/mustapha-me-logo.png" width = "150" height = "90">
+				<img src ="http://beirutspring.com/beirut_spring_square_logo_2x.png" width = "224" height = "128">
 			</a>
 		</h1>
 		<h2><?php bloginfo( 'description' ); ?></h2>
