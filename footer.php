@@ -21,36 +21,38 @@
 <?php wp_footer(); ?>
 
 
-<!-- Google Analytics Code -->
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-51741699-1', 'mustapha.me');
-  ga('send', 'pageview');
-
-</script>
-
-<!-- Start of StatCounter Code for Default Guide -->
+<!-- Start of StatCounter Code -->
 <script type="text/javascript">
-var sc_project=9690087; 
+var sc_project=3313987; 
 var sc_invisible=1; 
-var sc_security="02403b94"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
+var sc_security="eb0f8910"; 
 </script>
-<noscript><div class="statcounter"><a title="website
-statistics" href="http://statcounter.com/"
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="site stats"
+href="http://statcounter.com/free-web-stats/"
 target="_blank"><img class="statcounter"
-src="http://c.statcounter.com/9690087/0/02403b94/1/"
-alt="website statistics"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->
+src="http://c.statcounter.com/3313987/0/eb0f8910/1/"
+alt="site stats"></a></div></noscript>
+
+<!-- End of StatCounter Code -->
+
+<!-- Start of Google Analytics Code -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16792545-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End of Google Analytics Code -->
 
 </body>
 </html>
