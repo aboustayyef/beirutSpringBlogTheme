@@ -116,7 +116,7 @@
 		},
 	"\/style-compiled.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/style-compiled.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -125,7 +125,7 @@
 		},
 	"\/style.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -140,7 +140,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/style.scss",
-		"outputAbbreviatedPath": "\/Users\/stayyef\/Dropbox\/_websites_\/beirutspring\/wp-content\/themes\/beirutSpringBlogTheme\/style-compiled.css",
+		"outputAbbreviatedPath": "\/Users\/stayyef\/Dropbox\/_websites_\/beirutspring\/wp-content\/themes\/beirutSpringBlogTheme\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
@@ -162,6 +162,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/template-parts\/numeric-pagination.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/Users\/stayyef\/Dropbox\/_websites_\/beirutspring\/wp-content\/themes\/beirutSpringBlogTheme\/style-compiled.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Users\/stayyef\/Dropbox\/_websites_\/beirutspring\/wp-content\/themes\/beirutSpringBlogTheme\/style-compiled.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

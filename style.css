@@ -5,8 +5,7 @@ This is the original SASS build code for the CSS used in the theme.
 */
 /* =Fonts
 -------------------------------------------------------------- */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:600);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
 /* =Reset
 -------------------------------------------------------------- */
 body, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, tbody, tfoot, thead, tr, th, td {
@@ -42,7 +41,7 @@ address {
 -------------------------------------------------------------- */
 a {
   text-decoration: none;
-  color: #b12530; }
+  color: #669900; }
 
 a:hover {
   text-decoration: underline; }
@@ -53,7 +52,7 @@ a:hover {
   display: block;
   margin: 0 auto;
   max-width: 1180px;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 0;
   overflow: auto; }
   #site-header .hgroup {
     overflow: hidden;
@@ -61,30 +60,29 @@ a:hover {
     max-width: 1080px; }
   #site-header h1 {
     float: left;
-    font-family: "Open Sans", sans-serif;
-    font-size: 2.8em;
+    font-family: "Georgia", serif;
+    font-size: 2em;
     line-height: 1.5em;
     font-weight: bold;
     letter-spacing: -0.05em;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
-    margin: 0 0 0 2%; }
+    margin: 0 0 0 3%; }
     #site-header h1 a {
       color: #000; }
       #site-header h1 a:hover {
         text-decoration: none; }
       #site-header h1 a span {
-        color: #b12530; }
+        color: #669900; }
       #site-header h1 a small {
         font-size: 65%; }
   #site-header h2 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1em;
-    font-style: italic;
+    font-family: "Georgia", serif;
+    font-size: 0.9em;
     line-height: 1.2em;
-    float: right;
+    float: left;
     font-weight: normal;
-    margin: 1.5em 2% 0 2%;
-    color: #999; }
+    margin: 2.5em 2% 0 3%;
+    opacity: 0.8; }
 
 /* =Contents
 -------------------------------------------------------------- */
@@ -94,7 +92,7 @@ body.page-template-full-width-php #site-content {
 
 #content-area {
   font-size: 1em;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Georgia", serif;
   line-height: 1.8em;
   color: #333; }
 
@@ -104,7 +102,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Arvo", Georgia, serif;
   color: #333;
   font-weight: normal;
   line-height: 1em; }
@@ -121,7 +119,7 @@ h1.widget-title {
   font-weight: bold; }
 
 h1 {
-  font-size: 2.4em;
+  font-size: 2em;
   margin: 1em 0 0.3em; }
 
 h2 {
@@ -153,7 +151,7 @@ caption,
 th,
 td {
   font-size: 1em;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Georgia", serif;
   color: #333; }
 
 .page-links,
@@ -218,7 +216,7 @@ pre {
   font-size: 0.9em; }
 
 input[type=text] {
-  border: 1px solid #dddddd;
+  border: 1px solid silver;
   border-radius: 6px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -247,7 +245,7 @@ body .wp-caption {
   max-width: 94%;
   margin: 1em auto;
   padding: 2% 2% 0 2%;
-  border: 1px solid #dddddd;
+  border: 1px solid silver;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
@@ -275,7 +273,7 @@ body .wp-caption {
 article {
   margin: 0 0 2em 0;
   padding: 0 0 2em 0;
-  border-bottom: 1px solid #dddddd; }
+  border-bottom: 1px solid silver; }
 
 .entry-content {
   width: 100%;
@@ -289,7 +287,7 @@ article {
 
 .entry-meta {
   color: #888;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Georgia", serif;
   font-size: 0.8em; }
 
 .alignleft {
@@ -344,14 +342,23 @@ td {
   overflow: hidden; }
 
 #sidebar {
+  font-size: 0.8em;
+  opacity: 1;
   padding: 3%;
   width: 24%;
   float: right;
-  border-left: 1px solid #dddddd; }
+  border-left: 0;
+  line-height: 1.5em; }
+  #sidebar ul {
+    margin-left: 0; }
   #sidebar ul li {
-    line-height: 1.5em; }
+    list-style: none;
+    line-height: 1.5em;
+    padding: 5px 0; }
   #sidebar td {
     padding: 0.2em; }
+  #sidebar p {
+    margin: 0.6em 0; }
 
 /* =Numeric pagination
 -------------------------------------------------------------- */
@@ -366,7 +373,7 @@ td {
     height: 1.6em;
     line-height: 1.6em;
     text-align: center;
-    border: 1px solid #dddddd; }
+    border: 1px solid silver; }
   #numeric-pagination a {
     float: left;
     height: 1.3em;
@@ -374,7 +381,7 @@ td {
     padding: 0.1em 0.5em 0.2em 0.5em; }
   #numeric-pagination li.active a,
   #numeric-pagination li a:hover {
-    background: #b12530;
+    background: #669900;
     text-decoration: none;
     color: #fff; }
 
@@ -395,7 +402,7 @@ ol.commentlist {
   ol.commentlist li.comment {
     list-style: none;
     background: #fafafa;
-    border: 1px solid #dddddd;
+    border: 1px solid silver;
     margin: 0 0 1.5em 0;
     padding: 0;
     border-radius: 6px;
@@ -422,19 +429,19 @@ ol.commentlist {
     font-style: normal; }
   ol.commentlist img.avatar {
     float: right;
-    border: 1px solid #dddddd;
+    border: 1px solid silver;
     margin: 0 0 1.5em 1.5em; }
   ol.commentlist .comment-reply-link {
     background: #eee;
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    border: 1px solid #dddddd;
+    border: 1px solid silver;
     font-size: 0.8em;
     padding: 0.4em 0.8em;
     color: #333; }
   ol.commentlist .comment-reply-link:hover {
-    background: #b12530;
+    background: #669900;
     color: #fff;
     text-decoration: none; }
 
@@ -491,7 +498,7 @@ ol.commentlist {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   background: #fafafa;
-  border: 1px solid #dddddd;
+  border: 1px solid silver;
   color: #666; }
 
 .gform_wrapper input[type=email],
@@ -519,7 +526,7 @@ ol.commentlist {
 .contact-form textarea,
 #respond textarea {
   font-size: 0.9em;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Georgia", serif; }
 
 .gform_wrapper input[type=submit],
 .contact-form input[type=submit],
@@ -527,7 +534,7 @@ ol.commentlist {
   font-size: 1.2em;
   background: #eee;
   color: #333;
-  border: 1px solid #dddddd;
+  border: 1px solid silver;
   border-radius: 6px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -537,7 +544,7 @@ ol.commentlist {
 .gform_wrapper input[type=submit]:hover,
 .contact-form input[type=submit]:hover,
 #respond input[type=submit]:hover {
-  background: #b12530;
+  background: #669900;
   color: #fff;
   cursor: pointer; }
 
@@ -561,11 +568,11 @@ ol.commentlist {
   margin: 0 auto;
   max-width: 1180px;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Georgia", serif;
   font-size: 1em; }
 
 #site-info {
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid silver;
   padding: 1.6em 0; }
 
 /* =Responsive
@@ -602,7 +609,7 @@ ol.commentlist {
   float: right; }
 .rtl #sidebar {
   float: left;
-  border-right: 1px solid #dddddd;
+  border-right: 1px solid silver;
   border-left: none; }
 .rtl #numeric-pagination li {
   float: right; }
