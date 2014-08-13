@@ -329,6 +329,10 @@ td {
   border-top: 1px solid #ededed;
   padding: 1em 1em 1em 0; }
 
+.commentWithTwitter {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px; }
+
 /* =Sidebar
 -------------------------------------------------------------- */
 #content-area {
@@ -343,7 +347,7 @@ td {
 
 #sidebar {
   font-size: 0.8em;
-  opacity: 0.8;
+  opacity: 1;
   padding: 3%;
   width: 24%;
   float: right;
