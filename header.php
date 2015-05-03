@@ -45,7 +45,7 @@
 </style>
 
 <div class="beirutspringfestival">
-	<h4>Looking for the Beirut Spring Festival? <a href="https://www.facebook.com/BeirutSpringFestival">Click Here</a></h4>
+	<h4>Looking for the Beirut Spring Festival? <a href="http://beirutspringfestival.org/">Click Here</a></h4>
 </div>
 
 
