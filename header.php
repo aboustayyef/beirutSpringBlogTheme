@@ -24,6 +24,33 @@
 </head>
 <body <?php body_class(); ?>>
 
+
+<!-- START BEIRUT SPRING FESTIVAL BANNER -->
+
+<style media="screen" type="text/css">
+	.beirutspringfestival{
+		background-color:#6CD7CF;
+		padding:5px;
+		color:white;
+		text-align: center;
+		border-bottom:5px solid #F7141C
+	}
+	.beirutspringfestival h4{
+		margin: 15px 0;
+		line-height: 1.3;
+	}
+	.beirutspringfestival h4 a{
+		color:#F7141C;
+	}
+</style>
+
+<div class="beirutspringfestival">
+	<h4>Looking for the Beirut Spring Festival? <a href="https://www.facebook.com/BeirutSpringFestival">Click Here</a></h4>
+</div>
+
+
+<!-- END BEIRUT SPRING FESTIVAL BANNER -->
+
 <header id="site-header" role="banner">
 	<div class="hgroup">
 		<h1>
