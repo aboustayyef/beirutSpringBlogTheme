@@ -25,7 +25,7 @@
 <body <?php body_class(); ?>>
 
 
-<!-- START BEIRUT SPRING FESTIVAL BANNER -->
+<!-- START BEIRUT SPRING FESTIVAL BANNER 
 
 <style media="screen" type="text/css">
 	.beirutspringfestival{
@@ -49,7 +49,7 @@
 </div>
 
 
-<!-- END BEIRUT SPRING FESTIVAL BANNER -->
+ END BEIRUT SPRING FESTIVAL BANNER -->
 
 <header id="site-header" role="banner">
 	<div class="hgroup">
