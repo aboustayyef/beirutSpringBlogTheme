@@ -22,13 +22,16 @@
 
 
 <!-- Start of StatCounter Code -->
+
 <script type="text/javascript">
 var sc_project=3313987; 
 var sc_invisible=1; 
 var sc_security="eb0f8910"; 
 </script>
+
 <script type="text/javascript"
 src="http://www.statcounter.com/counter/counter.js"></script>
+
 <noscript><div class="statcounter"><a title="site stats"
 href="http://statcounter.com/free-web-stats/"
 target="_blank"><img class="statcounter"
@@ -36,6 +39,8 @@ src="http://c.statcounter.com/3313987/0/eb0f8910/1/"
 alt="site stats"></a></div></noscript>
 
 <!-- End of StatCounter Code -->
+
+<!--  This Comment was created on Codeanywhere -->
 
 <!-- Start of Google Analytics Code -->
 
@@ -52,6 +57,7 @@ alt="site stats"></a></div></noscript>
   })();
 
 </script>
+
 <!-- End of Google Analytics Code -->
 
 </body>
